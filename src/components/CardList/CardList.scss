@@ -1,0 +1,15 @@
+.cardlist {
+  display: grid;
+  box-sizing: border-box;
+
+  font-family: 'Inter', Arial, sans-serif;
+
+  &__page {
+    padding: 70px 70px 28px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 60px;
+    column-gap: 30px;
+    justify-items: center;
+  }
+}

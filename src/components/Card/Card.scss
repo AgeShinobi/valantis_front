@@ -1,0 +1,51 @@
+.card {
+  font-family: var(--font-family-main);
+  width: 100%;
+  max-width: 360px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  transition: .3s;
+
+  &__image {
+    margin: 5px auto 0;
+    border-radius: 10px;
+    width: 90%;
+    max-height: 240px;
+    object-fit: contain;
+  }
+
+  &__title {
+    color: var(--color-text-primary);
+
+    margin: 0;
+    font-size: var(--font-size-m);
+    line-height: var(--font-line-m);
+    font-weight: var(--font-weigth-medium);
+  }
+
+  &__brand {
+    color: var(--color-text-secondary);
+
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: var(--font-size-s);
+    line-height: var(--font-line-s);
+    font-weight: var(--font-weigth-regular);
+  }
+
+  &__price {
+    font-family: var(--font-family-numbers);
+    font-size: var(--font-size-s);
+    line-height: var(--font-line-s);
+    font-weight: var(--font-m-bold);
+    margin: 5px 0 10px;
+    color: var(--color-bg-dark-secondary);
+  }
+
+  &:hover {
+    box-shadow: 0 0 12px 2px rgba(0,0,0, .1);
+  }
+
+}
